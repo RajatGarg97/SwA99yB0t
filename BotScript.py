@@ -13,6 +13,7 @@ rawtxt = f.read()
 
 rawtxt = rawtxt.lower() #converts to lower case
 
+### RUN THESE TWO LINES ONLY ONCE ###
 # nltk.download('punkt')
 # nltk.download('wordnet')
 
@@ -51,7 +52,8 @@ def response(user_response):
     bot_response = ''
 
     TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
-    vals = cosine_similarity(TfidfVec[-1], TfidfVec)
+    tfidf = TfidfVec.fit_transform(sent_tokens)
+    vals = cosine_similarity(tfidf[-1], tfidf)
     idx = vals.argsort()[0][-2]
     flat = vals.flatten()
     flat.sort()
