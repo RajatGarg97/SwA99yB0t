@@ -21,8 +21,6 @@ Chatbot competitions focus on the Turing test or more specific goals. Two such a
 
 According to Forrester (2015), AI will replace 16 percent of American jobs by the end of the decade.Chatbots have been used in applications such as customer service, sales and product education. However, a study conducted by Narrative Science in 2015 found that 80 percent of their respondents believe AI improves worker performance and creates jobs.[citation needed]
 
-Application
-See also: Virtual assistant
 
 Aeromexico airline chatbot running on Facebook Messenger, March 2018
 Messaging apps
